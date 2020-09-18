@@ -1,6 +1,6 @@
 # CSS Avancado Posicionamento
 
-No curso de CSS Avançado – Posicionamento você irá aprender a partir dos fundamentos como posicionar os elementos em uma página.
+CSS Avançado – Posicionamento iremos etender a partir dos fundamentos como posicionar os elementos em uma página.
 O foco é passar de maneira **exaustiva** os fundamentos das propriedades e como elas agem no layout do site.
 
 - Serão criados 3 projetos diferentes durante o curso.
