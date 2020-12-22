@@ -1,6 +1,42 @@
-/* Breakpoints 960, 740 */
-
-/* Menu */
 @media (max-width: 739px) {
-  /* Aplicado quando tudo que for abaixo de 739px */
+  /* Será aplicado quando o layout estiver abaixo de 740px */
+
+  .menu-nav {
+    float: none;
+    clear: both;
+  }
+  .intro {
+    padding: 60px 0;
+  }
+
+  .sobre-container {
+    max-width: 300px;
+  }
+  .sobre-item {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .produtos-container {
+    max-width: 300px;
+  }
+  .produtos-item {
+    margin: 0 auto 20px auto;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 980px) {
+  /* Será aplicado quando p layout estiver entre 740px a 980px */
+
+  .sobre-container {
+    max-width: 720px;
+  }
+  .sobre-item {
+    width: 340px;
+  }
+  .produtos-container {
+    max-width: 720px;
+  }
+  .produtos-item {
+    width: 220px;
+  }
 }
