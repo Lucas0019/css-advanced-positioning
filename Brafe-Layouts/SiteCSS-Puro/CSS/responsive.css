@@ -1,14 +1,18 @@
 @media (max-width: 739px) {
   /* Será aplicado quando o layout estiver abaixo de 740px */
 
+  /* Navbar */
   .menu-nav {
     float: none;
     clear: both;
   }
+
+  /* Introdução */
   .intro {
     padding: 60px 0;
   }
 
+  /* Sobre */
   .sobre-container {
     max-width: 300px;
   }
@@ -16,6 +20,8 @@
     width: 300px;
     margin: 0 auto;
   }
+
+  /* Produtos */
   .produtos-container {
     max-width: 300px;
   }
@@ -27,12 +33,15 @@
 @media (min-width: 740px) and (max-width: 980px) {
   /* Será aplicado quando p layout estiver entre 740px a 980px */
 
+  /* Sobre */
   .sobre-container {
     max-width: 720px;
   }
   .sobre-item {
     width: 340px;
   }
+
+  /* Produtos */
   .produtos-container {
     max-width: 720px;
   }
