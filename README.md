@@ -13,3 +13,23 @@ O foco é passar de maneira **exaustiva** os fundamentos das propriedades e como
         3 - A terceira com o Flexbox
 
         4 - Por último usando o Bootstrap
+
+### Status Geral dos Projetos
+
+- Layout 01 
+  - [ ] CSS Puro
+  - [ ] CSS Flexbox
+  - [ ] CSS Grid
+  - [ ] CSS Bootstrap
+
+- Layout 02 
+  - [ ] CSS Puro
+  - [ ] CSS Flexbox
+  - [ ] CSS Grid
+  - [ ] CSS Bootstrap
+  
+- Layout 03 
+  - [ ] CSS Puro
+  - [ ] CSS Flexbox
+  - [ ] CSS Grid
+  - [ ] CSS Bootstrap

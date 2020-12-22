@@ -28,6 +28,8 @@
   .produtos-item {
     margin: 0 auto 20px auto;
   }
+
+  /* Locais */
 }
 
 @media (min-width: 740px) and (max-width: 980px) {
@@ -48,4 +50,6 @@
   .produtos-item {
     width: 220px;
   }
+
+  /* Locais */
 }
