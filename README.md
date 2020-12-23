@@ -17,7 +17,7 @@ O foco é passar de maneira **exaustiva** os fundamentos das propriedades e como
 ### Status Geral dos Projetos
 
 - Layout 01 
-  - [ ] CSS Puro
+  - [ ] CSS Puro - 🚧 Em Desenvolvimento 
   - [ ] CSS Flexbox
   - [ ] CSS Grid
   - [ ] CSS Bootstrap
