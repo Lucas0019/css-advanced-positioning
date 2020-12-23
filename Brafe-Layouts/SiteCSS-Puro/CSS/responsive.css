@@ -33,7 +33,7 @@
 }
 
 @media (min-width: 740px) and (max-width: 980px) {
-  /* Será aplicado quando p layout estiver entre 740px a 980px */
+  /* Será aplicado quando o layout estiver entre 740px a 980px */
 
   /* Sobre */
   .sobre-container {
