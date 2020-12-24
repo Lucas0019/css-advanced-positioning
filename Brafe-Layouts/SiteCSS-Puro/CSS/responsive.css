@@ -1,3 +1,4 @@
+/*Mobile*/
 @media (max-width: 739px) {
   /* Será aplicado quando o layout estiver abaixo de 740px */
 
@@ -30,6 +31,16 @@
   }
 
   /* Locais */
+  .locais {
+    max-width: 300px;
+  }
+  .locais-item > div,
+  .locais-item img {
+    width: 300px;
+    margin: 0px;
+  }
+
+  /* Newsletter */
 }
 
 @media (min-width: 740px) and (max-width: 980px) {
@@ -52,4 +63,13 @@
   }
 
   /* Locais */
+  .locais {
+    max-width: 720px;
+  }
+  .locais-item > div,
+  .locais-item img {
+    width: 340px;
+  }
+
+  /* Newsletter */
 }
