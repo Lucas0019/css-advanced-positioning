@@ -3,6 +3,16 @@
   /* Será aplicado quando o layout estiver abaixo de 740px */
 
   /* Navbar */
+  .menu {
+    text-align: center;
+  }
+
+  a.menu-logo {
+    float: none;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+
   .menu-nav {
     float: none;
     clear: both;
@@ -40,9 +50,32 @@
     margin: 0px;
   }
 
-  /* Newsletter */
+  /* Assine */
+  .assine-container {
+    max-width: 300px;
+  }
+
+  .assine-info,
+  .assine form,
+  .assine input {
+    width: 300px;
+    margin: 10px 0 0 0;
+  }
 
   /* Footer */
+  .footer-container {
+    max-width: 300px;
+  }
+
+  .footer p {
+    float: none;
+    margin: 0px;
+  }
+
+  .footer img {
+    float: none;
+    margin: 20px 0;
+  }
 }
 
 @media (min-width: 740px) and (max-width: 980px) {
@@ -73,7 +106,17 @@
     width: 340px;
   }
 
-  /* Newsletter */
+  /* Assine */
+  .assine-container {
+    max-width: 720px;
+  }
+
+  .assine-info,
+  .assine form,
+  .assine input {
+    width: 340px;
+  }
 
   /* Footer */
+  /* Não precisa */
 }

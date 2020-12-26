@@ -1,4 +1,4 @@
-/* Reset  */
+/* Reset */
 
 body,
 h1,
@@ -17,13 +17,13 @@ body {
 
 * {
   box-sizing: border-box;
-  /* border: 1px solid tomato; */
 }
 
 /* Menu */
+
 .menu {
   background: #252525;
-  padding: 20px 0px;
+  padding: 20px 0;
 }
 
 .menu-container {
@@ -46,12 +46,11 @@ a.menu-logo {
 
 .menu-nav {
   float: right;
-  margin-right: 10ps;
+  margin-right: 10px;
 }
 
 .menu-nav li {
   display: inline-block;
-  font-style: bold;
 }
 
 .menu-nav a {
@@ -62,11 +61,12 @@ a.menu-logo {
   font-size: 1.125em;
 }
 
-/* Introdução */
+/* Intro */
+
 .intro {
-  background: url(/img/bg-intro.jpg) no-repeat center center;
+  background: url("../img/bg-intro.jpg") no-repeat center center;
   background-size: cover;
-  padding: 150px 0px;
+  padding: 150px 0;
   text-align: center;
   color: #fff;
 }
@@ -76,7 +76,6 @@ a.menu-logo {
   font-size: 3em;
 }
 
-/* Separador */
 .intro h1::after {
   content: "";
   display: block;
@@ -92,6 +91,7 @@ a.menu-logo {
 }
 
 /* Sobre */
+
 .sobre {
   padding: 60px 0;
 }
@@ -136,7 +136,6 @@ a.menu-logo {
   text-align: center;
   padding: 5px 0 10px 0;
   top: -25px;
-  z-index: 5;
   position: relative;
 }
 
@@ -149,11 +148,23 @@ a.menu-logo {
   max-width: 460px;
 }
 
+@media (max-width: 739px) {
+  .sobre-container {
+    max-width: 300px;
+  }
+  .sobre-item {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
 /* Produtos */
+
 .produtos {
-  background: #e7ead8;
+  background: #e7e4d8;
   padding: 60px 0;
   border-top: 3px solid #d6d3c8;
+  border-bottom: 3px solid #d6d3c8;
 }
 
 .produtos-container {
@@ -161,18 +172,17 @@ a.menu-logo {
   margin: 0 auto;
 }
 
+.produtos-container::before,
+.produtos-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .produto-item {
   width: 300px;
   float: left;
   margin: 0 10px 20px 10px;
-}
-
-/* Clearfix */
-.produtos-container::after,
-.produtos-container::before {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .produto-item h2 {
@@ -184,14 +194,13 @@ a.menu-logo {
 .produto-item h2::before {
   content: "";
   display: block;
-  color: tomato;
   width: 100px;
   height: 100px;
   background: currentColor;
-  border-radius: 50px;
+  border-radius: 50%;
   margin: 20px auto;
-  border: 5px solid #e7ead8;
-  box-shadow: 0 0 0 10px currentColor;
+  border: 5px solid #e7e4d8;
+  box-shadow: 0 0 0 5px currentColor;
 }
 
 h2.produtos-paulista::before {
@@ -199,37 +208,43 @@ h2.produtos-paulista::before {
 }
 
 h2.produtos-carioca::before {
-  color: #a1512a;
+  color: #c17139;
 }
 
 h2.produtos-mineiro::before {
-  color: #d7aa39;
+  color: #d7a54d;
 }
 
-.produto-item p {
+.produtos-item p {
   font-size: 0.875em;
   line-height: 1.4em;
 }
 
 .produtos-btn {
-  border: 3px solid;
+  width: 180px;
+  border: 3px solid #252525;
   color: #252525;
   text-decoration: none;
+  display: block;
+  margin: 20px auto 0 auto;
   text-align: center;
   font-size: 1.125em;
   font-weight: bold;
   text-transform: uppercase;
-  display: block;
-  width: 180px;
   padding: 15px 0;
-  margin: 20px auto 0 auto;
 }
 
 /* Locais */
+
 .locais {
   max-width: 960px;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 20px 0;
+}
+
+.locais-item {
+  clear: both;
+  margin: 60px auto;
 }
 
 .locais-item::after,
@@ -244,7 +259,6 @@ h2.produtos-mineiro::before {
   display: block;
   float: left;
   margin: 0 10px;
-  padding-bottom: 20px;
 }
 
 .locais-item > div {
@@ -275,6 +289,7 @@ h2.produtos-mineiro::before {
 }
 
 /* Assine */
+
 .assine {
   background: #e7e4d8;
   padding: 30px 0;
@@ -290,11 +305,6 @@ h2.produtos-mineiro::before {
   content: "";
   display: table;
   clear: both;
-}
-
-.assine {
-  background: #e7e4d8;
-  padding: 30px 0;
 }
 
 .assine-info {
@@ -327,7 +337,8 @@ h2.produtos-mineiro::before {
   border: 3px solid #252525;
   background: none;
   font-size: 1.5em;
-  font-style: Georgia, serif;
+  font-style: italic;
+  font-family: Georgia, serif;
   padding: 10px;
   float: left;
 }
@@ -340,11 +351,12 @@ h2.produtos-mineiro::before {
   font-size: 1.5em;
   width: 140px;
   padding: 13px 0;
-  color: white;
+  color: #fff;
   cursor: pointer;
 }
 
-/* Footer */
+/*Footer*/
+
 .footer {
   background: #d6d3c8;
   padding: 40px 0;
@@ -364,7 +376,7 @@ h2.produtos-mineiro::before {
 
 .footer p {
   float: left;
-  margin-top: 0 10px;
+  margin: 0 10px;
   font-size: 1.125em;
   line-height: 1.4em;
 }
