@@ -1,6 +1,11 @@
 /* Reset */
 
-body, h1, h2, h3, p, ul {
+body,
+h1,
+h2,
+h3,
+p,
+ul {
 	padding: 0px;
 	margin: 0px;
 }
@@ -20,7 +25,7 @@ body {
 	background: #252525;
 }
 
-.menu-nav a {
+.menu__nav a {
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.125em;
@@ -29,7 +34,7 @@ body {
 /* Intro */
 
 .intro {
-	background: url('../img/bg-intro.jpg') no-repeat center center;
+	background: url("../img/bg-intro.jpg") no-repeat center center;
 	background-size: cover;
 	color: #fff;
 }
@@ -40,7 +45,7 @@ body {
 }
 
 .intro h1::after {
-	content: '';
+	content: "";
 	display: block;
 	width: 20px;
 	height: 4px;
@@ -58,7 +63,7 @@ body {
 	font-size: 2.25em;
 }
 
-.sobre-item h3 {
+.sobre__item h3 {
 	font-size: 2.25em;
 	line-height: 1em;
 	background: #252525;
@@ -83,12 +88,12 @@ body {
 	border-bottom: 3px solid #d6d3c8;
 }
 
-.produtos-item h2 {
+.produtos__item h2 {
 	font-size: 2.25em;
 }
 
-.produtos-item h2::before {
-	content: '';
+.produtos__item h2::before {
+	content: "";
 	display: block;
 	width: 100px;
 	height: 100px;
@@ -98,24 +103,24 @@ body {
 	box-shadow: 0 0 0 5px currentColor;
 }
 
-h2.produtos-paulista::before {
+h2.produtos__paulista::before {
 	color: #492901;
 }
 
-h2.produtos-carioca::before {
+h2.produtos__carioca::before {
 	color: #c17139;
 }
 
-h2.produtos-mineiro::before {
+h2.produtos__mineiro::before {
 	color: #d7a54d;
 }
 
-.produtos-item p {
+.produtos__item p {
 	font-size: 0.875em;
 	line-height: 1.4em;
 }
 
-.produtos-btn {
+.produtos__btn {
 	border: 3px solid #252525;
 	color: #252525;
 	text-decoration: none;
@@ -127,16 +132,16 @@ h2.produtos-mineiro::before {
 
 /* Locais */
 
-.locais-item h2 {
+.locais__item h2 {
 	font-size: 2.25em;
 }
 
-.locais-item p {
+.locais__item p {
 	font-size: 1.125em;
 	line-height: 1.4em;
 }
 
-.locais-item a {
+.locais__item a {
 	font-size: 1.125em;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -150,11 +155,11 @@ h2.produtos-mineiro::before {
 	background: #e7e4d8;
 }
 
-.assine-info h2 {
+.assine__info h2 {
 	font-size: 2.25em;
 }
 
-.assine-info p {
+.assine__info p {
 	font-size: 1.5em;
 	font-style: italic;
 }
