@@ -16,4 +16,10 @@
     .intro {
         padding: 60px 0;
     }
+
+    /* Footer */
+    .footer img {
+        float: none;
+        margin-top: 20px;
+    }
 }
