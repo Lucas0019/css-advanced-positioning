@@ -1,0 +1,19 @@
+/* Mobile */
+
+@media (max-width: 739px) {
+    /* Menu */
+    .menu__nav ul {
+        float: none;
+    }
+
+    .menu__nav ul li a {
+        margin-left: 0;
+        padding-left: 8px;
+        padding-right: 0;
+    }
+
+    /* Intro */
+    .intro {
+        padding: 60px 0;
+    }
+}
