@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Flexbox</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="./flexbox.css">
+</head>
+
+<body>
+
+	<style>
+		section {
+			display: flex;
+		}
+
+		section>div {
+			background: #ff6347;
+			border-radius: 6px;
+			margin: 10px;
+			padding: 10px;
+			flex: 1;
+		}
+
+		/* flex: [ < "flex-grow" > < "flex-shrink" >? || < "flex-basis" > ]; */
+
+
+		.item__order {
+			align-self: flex-end;
+		}
+	</style>
+
+	<main>
+		<h1>Cafés com a cara<br>do Brasil</h1>
+		<p>Direto das fazendas de Minas Gerais</p>
+	</main>
+
+	<section>
+
+		<div>
+			<h2>Mineirão</h2>
+			<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o
+				cultivo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad inventore minima deleniti
+				perspiciatis ipsa laborum consequatur nobis expedita facilis corporis, nesciunt, incidunt quos ipsum
+				velit iure, pariatur provident doloremque in.</p>
+		</div>
+		<div class="item__order">
+			<h2>Mineirão</h2>
+			<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o
+				cultivo.</p>
+		</div>
+		<div>
+			<h2>Mineirão</h2>
+			<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o
+				cultivo.</p>
+		</div>
+
+
+
+	</section>
+
+	<footer>
+		<p>Este é um projeto da Origamid. Mais em origamid.com. Praia de Botafogo, 300, 5º andar - Botafogo - Rio de
+			Janeiro</p>
+	</footer>
+
+</body>
+
+</html>
